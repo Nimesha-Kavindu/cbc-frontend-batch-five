@@ -1,10 +1,15 @@
 import './App.css'
+import Header from './components/header'
+import ProductCard from './components/prductCard'
+import UserData from './components/userData'
 
 function App() {
 
   return (
     <>
-      <h1>Hello World</h1>
+      <Header />
+      <UserData />
+      <ProductCard />
     </>
   )
 }
